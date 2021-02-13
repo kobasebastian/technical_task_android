@@ -17,7 +17,7 @@ class GoRestApiRepository(private val goRestApi: GoRestApi) {
                 .subscribe({
                     emitter.onNext(it)
                 },{
-                    emitter.onError(it)
+                    it.printStackTrace()
                 })
         }
     }
@@ -30,7 +30,7 @@ class GoRestApiRepository(private val goRestApi: GoRestApi) {
                 .subscribe({
                     emitter.onNext(it)
                 },{
-                    emitter.onError(it)
+                    it.printStackTrace()
                 })
         }
     }
@@ -45,7 +45,7 @@ class GoRestApiRepository(private val goRestApi: GoRestApi) {
                         emitter.onComplete()
                     }
                 },{
-                    emitter.onError(it)
+                    it.printStackTrace()
                 })
         }
     }
