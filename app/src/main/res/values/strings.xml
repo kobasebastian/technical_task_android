@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SlidePracticalTest</string>
+    <string name="email_hint">Email</string>
+    <string name="name_hint">Name</string>
+    <string name="cancel_dialog_text">Cancel</string>
+    <string name="submit_dialog_text">Submit</string>
+    <string name="dialog_title">Add new user</string>
+</resources>
